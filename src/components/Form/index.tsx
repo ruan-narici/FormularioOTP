@@ -1,4 +1,4 @@
-import Title from '../Title';
+import Title from './Title';
 import Button from './Button';
 import styles from './Form.module.scss';
 import InputCode from './InputCode';
