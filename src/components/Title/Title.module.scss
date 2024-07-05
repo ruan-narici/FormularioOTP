@@ -1,0 +1,20 @@
+@import 'styles/variables.scss';
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: none;
+
+  &__title {
+    font-size: 2rem;
+    color: $black;
+    margin-top: 1.5rem;
+  }
+
+  &__description {
+    font: .6rem;
+    color: $gray;
+  }
+}

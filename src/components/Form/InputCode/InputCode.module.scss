@@ -1,0 +1,30 @@
+@import 'styles/variables.scss';
+
+.buttons {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin: 3rem 0;
+  border: none;
+
+  input {
+    font-size: 2rem;
+    font-weight: bold;
+    color: $black;
+    background-color: $light-gray;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    text-align: center;
+    width: 46px;
+    height: 59px;
+
+    &::-webkit-inner-spin-button {
+      -webkit-appearance: none;
+    }
+
+    &:hover {
+      filter: brightness(95%);
+    }
+  }
+}
