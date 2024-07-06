@@ -44,7 +44,6 @@ export default function InputCode({ otp, setOtp }: Props) {
       { otp.map((input, index) => (
         <input 
           key={ index } 
-          maxLength={1} 
           type="number" 
           onChange={ (event) => onChangeInput(event, index) }
           onKeyDown={ (event) => onKeyDownInput(event, index) }
