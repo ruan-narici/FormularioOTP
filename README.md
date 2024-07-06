@@ -1,46 +1,42 @@
-# Getting Started with Create React App
+# ListaCompras
+``` 
+✨ Este projeto foi desenvolvido com o objetivo de aplicar meus conhecimentos 
+em React, TypeScript e SCSS.
+``` 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![Ruan Narici](./public/assets/img/preview.png)
 
-## Available Scripts
+## Experiências Práticas
+Durante o desenvolvimento deste projeto, notei que melhorei minhas habilidades de construção de interface utilizando React com Typescript e SCSS. Porém, tive dificuldade em implementar a lógica responsável por alterar o campo focado após o usuário inserir um número.
 
-In the project directory, you can run:
+Diante dessa dificuldade, resolvi pesquisar um pouco sobre como fazer essa ação e consegui encontrar as funções .previousSibling e .nextSibling, que são responsáveis por capturar o elemento anterior e o próximo elemento, respectivamente. A partir disso, bastava evocar a função focus() para focar no elemento. Após esse importante aprendizado, pude concluir o projeto.
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## 🔨 Requisitos
+- Crie um formulário com 5 campos de entrada, cada um representando um dígito da senha OTP.
+- A submissão desse formulário deverá ocorrer quando o usuário pressionar a tecla Enter ou clicar no botão de submissão.
+- Os campos de entrada só poderão aceitar números, permitindo apenas um único dígito em cada.
+- Ao carregar a página, a aplicação deverá focar no primeiro campo de dígito.
+- Ao digitar no primeiro campo, o foco deve ser transferido automaticamente para o segundo campo, e assim sucessivamente.
+- Se algum dígito for apagado, o foco deve retornar para o dígito anterior.
+- ~~ Deve ser possível colar um código de 5 dígitos e ele deve aparecer corretamente nos campos de entrada. ~~
+- Um erro deve ser exibido quando o texto colado não possuir 5 dígitos numéricos.
+- A navegação entre os campos deve ser possível utilizando as setas do teclado (ArrowLeft e ArrowRight).
+- Em dispositivos móveis, o teclado numérico deve ser ativado (ao invés do teclado tradicional).
+- Utilize, sempre que possível, as boas práticas descritas nesse artigo.
+- Desenvolva a interface de usuário conforme o modelo do Figma ou, se preferir, crie um design personalizado.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## 👉🏽 Sobre este mini-projeto
+### O que você irá praticar:
+#### React
+- Refs no React
+- Formulários controlados no React
+- Eventos
+#### WebOTP API
+- Melhores práticas no uso da WebOTP API
+- Inputs com teclados numéricos
 
-### `npm test`
+### Pré-requisitos
+Conhecimento básico de React (JSX, componentes, props)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+<a href='https://codante.io/mini-projetos/formulario-de-otp-com-react'>DESAFIO [CODANTE]</a>
