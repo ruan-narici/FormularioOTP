@@ -10,7 +10,7 @@ export default function InputCode({ otp, setOtp }: Props) {
     if (isNaN(event.target.value)) {
       return false;
     } else if ( event.target.value.length > 1) {
-      event.target.value = event.target.value[event.target.value.length - 1];
+      event.target.value = event.target.value[1];
     }
 
     setOtp(otp.map((code, index) => key === index ? event.target.value : code));
